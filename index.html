@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css"/>
 </head>
+
 <body>
-    <h1>shubham </h1>
-    <h2>shinde</h2>
+    <div class="notification-container hide">
+        <p class="notification">Winner</p>
+        <button class="replay-btn">New match</button>
+    </div>
+    <main>
+        <h1 id="heading">Tic Tac Toe Game</h1>
+        <div class="container">
+            <div class="game">
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+                <button class="square"></button>
+            </div>
+        </div>
+        <button class="restart-btn">Restart</button>
+    </main>
+    <script src="app.js"></script>    
 </body>
 </html>

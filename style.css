@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #F4F1DE;
+}
+
+#heading {
+    margin: 2rem;
+    color: #3D405B;
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.square {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    background-color: #81B29A; 
+    color: #F2CC8F; 
+    font-size: 5rem;
+}
+
+.restart-btn {
+    height: 8vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    background-color: #E07A5F; 
+    border: none;
+    font-size: 2rem;
+    color: #F4F1DE; 
+}
+
+.notification-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 5rem;
+    color: #3D405B; 
+    gap: 2rem;
+}
+
+.replay-btn {
+    height: 8vmin;
+    width: 20vmin;
+    border-radius: 1rem;
+    background-color: #E07A5F; 
+    font-size: 1.5rem;
+    color: #F4F1DE; 
+}
+
+@media only screen and (max-width: 700px) {
+    .square {
+        font-size: 8vmin;
+    }
+    .container {
+        height: 60vh;
+    }
+    .restart-btn {
+        height: 12vmin;
+        width: 22vmin;
+        font-size: 5vmin;
+    }
+    #heading {
+        color: #3D405B;
+    }
+    .notification-container {
+        font-size: 7vmin;
+    }
+    .replay-btn {
+        height: 15vmin;
+        width: 25vmin;
+        font-size: 5vmin;
+    }
+}
+
+.hide {
+    display: none;
+}
